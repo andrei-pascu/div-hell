@@ -1,0 +1,53 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#mario {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 480px;
+  background-color: lightgray;
+}
+.h {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+}
+.w {
+  box-sizing: border-box;
+  /*border: 1px solid gray;*/
+  width: 30px;
+  height: 100%;
+}
+.bb {
+  background-color: black;
+}
+.r {
+  background-color: red;
+}
+.bl {
+  background-color: blue;
+}
+.y {
+  background-color: yellow;
+}
+.b {
+  background-color: #8B4513;
+}
+.s {
+  background-color: #ffe0bd;
+}
