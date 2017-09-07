@@ -15,7 +15,7 @@ var state = 0;
 var direct = 0;
 $('#button').click(function() {
   if(state == 0) {
-    $('#main').css({'background': 'url("i/bk.jpg")', 'background-size':'cover'});
+    $('#main').css({'background-color': 'rgb(106, 255, 151)'});
     state = 1;
     anime({
       targets: '.w',
