@@ -19,8 +19,8 @@ $('#button').click(function() {
     state = 1;
     anime({
       targets: '.w',
-      translateX: function() { return anime.random(-6, 6) + 'rem'; },
-      translateY: function() { return anime.random(-6, 6) + 'rem'; },
+      translateX: function() { return anime.random(-30, 30) + 'rem'; },
+      translateY: function() { return anime.random(-30, 30) + 'rem'; },
       scale: function() { return anime.random(10, 20) / 10; },
       rotate: function() { return anime.random(-360, 360); },
       delay: function() { return 000 + anime.random(0, 000); },
