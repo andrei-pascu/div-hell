@@ -17,6 +17,7 @@ body, html {
   overflow: hidden;
   image-rendering: pixelated;
   background-size: cover;
+  transition: 0.4s;
 }
 #mario {
   margin-top: 16vh;
